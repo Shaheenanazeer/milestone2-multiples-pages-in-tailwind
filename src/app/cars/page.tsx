@@ -21,9 +21,9 @@ const CarList = () => {
             height={600} // Specify the height
             className="w-full h-48 object-cover mb-5"
           />
-          <h3 className="text-lg text-white font-bold">{car.name}</h3>
-          <p className="text-sm text-white italic">{car.description}</p>
-          <p className="text-base text-white font-bold">Price: ${car.price}</p>
+          <h3 className="text-lg text-black font-bold">{car.name}</h3>
+          <p className="text-sm text-black italic">{car.description}</p>
+          <p className="text-base text-black font-bold">Price: ${car.price}</p>
           <button
             className="px-2 py-2  bg-blue-600 text-white border-none rounded-full cursor-pointer mt-1"
           >
